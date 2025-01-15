@@ -1,0 +1,203 @@
+/* General Body Styling */
+body{
+    font-family:sans-serif;
+}
+/* header styling */
+.header{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+/* header styling */
+.header a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    transition: 1s;
+}
+/* header link hover effects */
+.header a:hover{
+    text-decoration: underline;
+    color: brown;
+    font-size: 20px;
+}
+/* header image styling */
+.header img{
+    border-radius: 50px;
+}
+.header #gmail, #images{
+    padding-top: 8px;
+}
+/* header image hover effects */
+.header img:hover{
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+}
+/* Main body */
+#mainbody{
+    position: relative;
+    padding-top: 6%;
+}
+/* Main body image styling */
+#mainbody img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 70%;
+}
+/* imput section styling */
+#inputSection{
+    width: 100%;
+    display: inline-block;
+}
+/* input field container styling */
+#inputSection #takeInput{
+    position: relative;
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* search icon styling */
+#inputSection #takeInput #searchIcon{
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top: 12px;
+}
+/* voice icon styling */
+#inputSection #takeInput #voiceIcon{
+    position: absolute;
+    display: flex;
+    flex:0 0 auto;
+    left: 95%;
+    top: 12%;
+}
+/* input field styling */
+#inputSection #takeInput input{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 50px;
+    padding-left:20px ;
+    outline: none;
+    padding-left: 40px;
+}
+/* input field hover effects */
+#inputSection #takeInput input:hover{
+    box-shadow: 0px 2px 5px #61C5FA;
+    border-width: 0px;
+}
+/* input field focus effects */
+#inputSection #takeInput input:focus{
+ box-shadow: 0px 1px 5px #61C5FA;
+ border-width: 0px;
+}
+/* different buttons section styling */
+#inputSection #diffbut{
+ padding-top: 2%;
+ display: flex;
+ justify-content: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+/* button styling */
+#inputSection #diffbut button{
+  font-size: 15px;
+  padding: 10px;
+  display: flex;
+  margin-right: 20px;
+  border: 1px solid #F8F9FA;
+  border-radius: 7px;
+  background-color: rgba(245, 245, 245, 0.479);
+}
+/* button hover effects */
+#inputSection #diffbut button:hover{
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.192);
+  background-color: rgba(136, 126, 126, 0.1);
+  transition: 0.1s;
+}
+/* language selection styling */
+#langSelect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:30px ;
+    font-size: 15px;
+}
+/* language link styling */
+#langSelect a{
+    text-decoration: none;
+    padding-left: 15px;
+}
+/*language link hover*/
+#langSelect a:hover{
+    text-decoration: none;
+    padding-left: 15px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+/* footer styling */
+#footer{
+    background-color: rgba(226,226,226,0.5);
+    position: absolute;
+    bottom: 5px;
+    flex-shrink: 0;
+    margin-right: 8px;
+    width: 100%;
+}
+/* upper footer styling */
+#footer#upper{
+    padding-left:2% ;
+    padding-bottom: 10px;
+    color: rgba(68,65,65,0.7);
+    font-size: 12px;
+}
+/* lower footer styling */
+#footer #lower #leftside{
+    float: left;
+    padding-left: 3%;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+/* left side links */
+#footer #lower #leftside a{
+    text-decoration: none;
+    color: rgba(68,65,65,0.7);
+    padding-right: 20px;
+    font-size: 14px;
+}
+/* left side link hover effects */
+#footer #lower #leftside a:hover {
+    color: rgba(68,65,65,1);
+    text-decoration: underline;
+    transition: 1s;
+    font-size: 20px;
+}
+/* right side footer styling */
+#footer #lower #rightside{
+    float: right;
+    padding-right:3% ;
+    padding-top: 6px;
+    padding-bottom: 7px;    
+}
+/* right side footer links */
+#footer #lower #rightside a{
+    text-decoration: none;
+    color: rgba(68, 65, 65, 0.7);
+    padding-left: 20px;
+    font-size: 14px;
+}
+/* right side link hover */
+#footer #lower #rightside a:hover{
+    color: rgba(68,65,65,1);
+    text-decoration: underline;
+    transition: 1s;
+    font-size: 20px;
+}
